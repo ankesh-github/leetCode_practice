@@ -22,5 +22,11 @@ public class ReverseNumber {
         return reversed;
         
     }
+	
+	public static void main (String [] args) {
+		ReverseNumber rm =  new ReverseNumber();
+		System.out.println(rm.reverse(12345));
+		
+	}
 
 }
